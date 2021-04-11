@@ -1,0 +1,12 @@
+Comment utiliser git
+composer create-project laravel/laravel 
+
+pour definir un projet comme un projet git, on tape la commande 'git init'
+
+selection d'un fichier en particullier(git add nom-fichier et git add .  selectionne tout les fichiers)
+sauvegarder un fichier avec git(git commit -m "message"). Pour pouvoir sauvegarder les fichiers,
+il faut tout d'abord dire à git qui nous sommes(git config --global user.name "nom" et git config --global user.email "mail")
+
+Afficher nos sauvegardes(git log) ou (git log --oneline) pour faciliter l'affichage
+
+effacer un fichier avec git(git reset idcopié)
